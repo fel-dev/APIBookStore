@@ -1,4 +1,6 @@
 
+using APIBookStore.Models;
+
 namespace APIBookStore
 {
     public class Program
@@ -8,6 +10,8 @@ namespace APIBookStore
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.Configure<BookStoreDatabase>(
+                builder.Configuration.GetSection("BookStoreDatabase"));
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
