@@ -8,7 +8,7 @@
 
 ## [Install MongoDB](#sumario)]
 
-1	. Download the mongodb from the official website and install it.
+1. Download the mongodb from the official website and install it.
 	- Select the `Complete` installation type. And don't check the box for start automatically.(We will start it manually)
 	- Install it in default folder i.e. `C:\Program Files\MongoDB\Server\7\`
 2. Add the `bin` folder path to the environment variable.
