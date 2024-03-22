@@ -1,6 +1,6 @@
 ﻿namespace APIBookStore.Models
 {
-    public class BookStoreDatabase
+    public class BookStoreDatabaseSettings
     {
         public string ConnectionString { get; set; } = null!;
         public string DatabaseName { get; set; } = null!;
